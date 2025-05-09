@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header {
+    background-color: rgb(6, 33, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.product-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.product-card h2 {
+    font-size: 24px;
+    color: rgb(236, 159, 15);
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(236, 159, 15);
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d17e00;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 162, 162);
+    height: 80px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.logo{
+    border-radius: 45px;
+}
